@@ -8,9 +8,9 @@ export const Container = styled.View`
   border-radius: 8px;
   align-items: center;
   margin-top: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  
+  margin-bottom: 30px;
+  padding-top: 5px;
+  padding-bottom: 20px;
 `
 
 export const Porcent = styled.Text`
