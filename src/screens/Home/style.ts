@@ -8,7 +8,7 @@ export const Container = styled(SafeAreaView)`
 `;
 
 export const Content = styled.View`
-  margin-bottom: 10px
+  margin-bottom: 10px;
 `;
 
 export const TextRefeicao = styled.Text`
@@ -19,7 +19,6 @@ export const TextRefeicao = styled.Text`
 `;
 
 export const HeaderStyleList = styled.Text`
-  background-color: ${({theme}) => theme.COLORS.WHITE};
   font-size: ${({theme}) => theme.FONT_SIZE.LG}px;
   font-family: ${({theme}) => theme.FONT_FAMILY.BOLD};
   margin-top: 20px
@@ -33,18 +32,6 @@ export const Item = styled.View`
 `;
 
 export const HeaderSection = styled.View`
-  background-color: ${({ theme }) => theme.COLORS.WHITE};
 `
-/* 
-export const HeaderTitle
-
-export const HeaderTitle = styled.Text`
-  ${({ theme }) => css`
-    font-size: ${theme.FONT_SIZE.TEXT_LG}px;
-    color: ${theme.COLORS.GRAY_1};
-    font-family: ${theme.FONT_FAMILY.BOLD};
-    margin-top:32px;
-    margin-bottom:8px ;
-  `}; */
 
 

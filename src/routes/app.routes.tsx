@@ -17,7 +17,7 @@ export function AppRoutes() {
         component={Home}
       />
       <Screen
-        name="statistic"
+        name="statistics"
         component={Statistics}
       />
 
