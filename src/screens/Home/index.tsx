@@ -4,8 +4,13 @@ import { Header } from "@components/Header";
 import { Button } from "@components/ButtonIcon";
 import { SectionList } from "react-native";
 import { CardSnack } from "@components/CardSnack";
+import { useNavigation } from "@react-navigation/native";
 
 export function Home() {
+  const navigation = useNavigation()
+  function handleRegister() {
+    navigation.navigate('register')
+  }
   const DATA = [
     {
       title: '12.08.22',
@@ -38,7 +43,7 @@ export function Home() {
       <Header />
       <PorcenBoxDiet />
       <TextRefeicao>Refeições</TextRefeicao>
-      <Button title='Cadastrar' />
+      <Button title='Cadastrar' onPress={handleRegister} />
       <Content>
         <SectionList sections={DATA}
           showsVerticalScrollIndicator={false}

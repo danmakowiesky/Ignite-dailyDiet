@@ -9,11 +9,11 @@ export function Statistics() {
         <Title>Estatísticas gerais</Title>
         <SequenceInfo>
           <Quantity>22</Quantity>
-          <SubTitle>Melhor sequencia de pratos dentro da dieta</SubTitle>
+          <SubTitle>melhor sequencia de pratos dentro da dieta</SubTitle>
         </SequenceInfo>
         <SequenceInfo>
           <Quantity>109</Quantity>
-          <SubTitle>Melhor sequencia de pratos dentro da dieta</SubTitle>
+          <SubTitle>Refeições registradas</SubTitle>
         </SequenceInfo>
         <Meals>
           <OnDiet>
